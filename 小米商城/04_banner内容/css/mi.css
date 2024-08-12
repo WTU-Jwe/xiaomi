@@ -1,0 +1,326 @@
+/*黑色导航  start*/
+
+.black-nav {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+    font-size: 12px;
+}
+
+.wrap {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.black-nav .wrap .nav_left {
+    float: left;
+}
+
+.black-nav .wrap .nav_right {
+    float: right;
+}
+
+.black-nav a {
+    color: #b0b0b0;
+}
+
+.black-nav .wrap li {
+    float: left;
+    position: relative;
+
+}
+
+.black-nav .wrap li span {
+    color: #424242;
+    margin: 0 3.6px;
+}
+
+.download {
+    width: 120px;
+    height: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 5px #aaa;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -62px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.download img {
+    width: 100px;
+    margin: 10px auto 0;
+}
+
+.download p {
+    font-size: 12px;
+    line-height: 1.2px;
+    margin: 2px;
+}
+
+.black-nav .nav_left li:hover>.download {
+    height: 148px;
+}
+
+.stri {
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -10px;
+    display: none;
+}
+
+.nav_left li:hover>.stri {
+    display: block;
+}
+
+.nav_right li {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.nav_right .cart img {
+    width: 15px;
+    display: inline-block;
+    vertical-align: -2px;
+    margin-right: 1px;
+    margin-left: 20px;
+}
+
+.nav_right .cart {
+    width: 120px;
+    height: 40px;
+    background-color: #424242;
+    margin-left: 25px;
+}
+
+.cart:hover {
+    background-color: #fff;
+    color: orange;
+}
+
+.cart-list {
+    width: 316px;
+    height: 0px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px #aaa;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    color: #424242;
+    overflow: hidden;
+    line-height: 100px;
+    text-align: center;
+}
+
+.black-nav .nav_right li:hover>.cart-list {
+    height: 100px;
+}
+
+/*黑色导航  end*/
+
+
+
+/*白色导航  start*/
+.white-nav {
+    width: 100%;
+    height: 100px;
+    line-height: 40px;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+
+.logo>img {
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    float: left;
+    margin-top: 22.5px;
+    overflow: hidden;
+}
+
+.nav-bar {
+    width: 875px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    margin-left: 70px;
+}
+
+.nav-bar li {
+    font-size: 15px;
+    float: left;
+}
+
+.search {
+    float: left;
+    height: 100px;
+    width: 296px;
+    margin-top: 22px;
+    margin-left: -100px;
+}
+
+.nav-bar li a {
+    color: #333;
+    padding: 10px;
+}
+
+.nav-bar li a:hover {
+    color: #ff6700;
+}
+
+.search input {
+    width: 244px;
+    height: 50px;
+    float: left;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-right: 0;
+    padding-left: 10px;
+}
+
+.search button {
+    width: 52px;
+    height: 50px;
+    float: right;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+.nav-bar-list {
+    width: 100%;
+    height: 229px;
+    background-color: #fff;
+    border-top: solid 1px #e0e0e0;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+.nav-bar li:hover>.nav-bar-list {
+    display: block;
+}
+
+.nav-bar-list li {
+    line-height: normal;
+    padding: 10px;
+    border-right: 1px solid #eee;
+
+}
+
+.nav-bar-list .name {
+    font-size: 12px;
+    color: #333;
+}
+
+.nav-bar-list .price {
+    font-size: 12px;
+    color: #ff6700;
+    text-align: center;
+}
+
+/*白色导航  end*/
+
+
+/*banner start*/
+.banner {
+    width: 100%;
+    height: 460px;
+}
+
+.slide {
+    width: 234px;
+    height: 420px;
+    padding: 20px 0;
+    background-color: rgba(105, 101, 101, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner .wrap {
+    position: relative;
+    height: 460px;
+}
+
+.banner .wrap .slide-img img {
+    height: 460px;
+    transform: translateY(-20px);
+}
+
+.slide ul li {
+    height: 42px;
+    line-height: 42px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 50px;
+    font-size: 14px;
+}
+
+.slide ul li a {
+    color: #fff;
+}
+
+.slide ul li span {
+    color: #fff;
+    float: right;
+}
+
+.slide ul li:hover {
+    background-color: #ff6700;
+}
+
+.slide-list {
+    width: 992px;
+    height: 460px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-left: none;
+    box-sizing: border-box;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+    position: absolute;
+    top: 0;
+    left: 234px;
+    display: none;
+}
+
+.slide-list ul {
+    width: 100%;
+}
+
+.slide .slide-list ul li {
+    width: 240px;
+    height: 85px;
+    float: left;
+    padding: 18px 0 18px 20px;
+    box-sizing: border-box;
+    line-height: 76px;
+}
+
+.slide .slide-list span {
+    color: #333;
+    font-size: 14px;
+    position: relative;
+    top: -10px;
+    left: -50px;
+}
+
+.slide .slide-list ul li:hover {
+    background-color: #e0e0e0;
+}
+
+.slide li:hover .slide-list {
+    display: block;
+}

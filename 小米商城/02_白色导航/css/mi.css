@@ -1,0 +1,205 @@
+/*黑色导航  start*/
+
+.black-nav {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+    font-size: 12px;
+}
+
+.black-nav .wrap {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.black-nav .wrap .nav_left {
+    float: left;
+}
+
+.black-nav .wrap .nav_right {
+    float: right;
+}
+
+.black-nav a {
+    color: #b0b0b0;
+}
+
+.black-nav .wrap li {
+    float: left;
+    position: relative;
+
+}
+
+.black-nav .wrap li span {
+    color: #424242;
+    margin: 0 3.6px;
+}
+
+.download {
+    width: 120px;
+    height: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 5px #aaa;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -62px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.download img {
+    width: 100px;
+    margin: 10px auto 0;
+}
+
+.download p {
+    font-size: 12px;
+    line-height: 1.2px;
+    margin: 2px;
+}
+
+.black-nav .nav_left li:hover>.download {
+    height: 148px;
+}
+
+.stri {
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -10px;
+    display: none;
+}
+
+.nav_left li:hover>.stri {
+    display: block;
+}
+
+.nav_right li {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.nav_right .cart img {
+    width: 15px;
+    display: inline-block;
+    vertical-align: -2px;
+    margin-right: 1px;
+    margin-left: 20px;
+}
+
+.nav_right .cart {
+    width: 120px;
+    height: 40px;
+    background-color: #424242;
+    margin-left: 25px;
+}
+
+.cart:hover {
+    background-color: #fff;
+    color: orange;
+}
+
+.cart-list {
+    width: 316px;
+    height: 0px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px #aaa;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    color: #424242;
+    overflow: hidden;
+    line-height: 100px;
+    text-align: center;
+}
+
+.black-nav .nav_right li:hover>.cart-list {
+    height: 100px;
+}
+
+/*黑色导航  end*/
+
+
+
+/*白色导航  start*/
+.white-nav {
+    width: 100%;
+    height: 100px;
+    line-height: 40px;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.white-nav .wrap {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.logo>img {
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    float: left;
+    margin-top: 22.5px;
+    overflow: hidden;
+}
+
+.nav-bar {
+    width: 875px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    margin-left: 100px;
+}
+
+.nav-bar li {
+    font-size: 15px;
+    float: left;
+}
+
+.search {
+    float: left;
+    height: 100px;
+    width: 296px;
+    margin-top: 22px;
+    margin-left: -100px;
+}
+
+.nav-bar li a {
+    color: #333;
+    padding: 10px;
+}
+
+.nav-bar li a:hover {
+    color: #ff6700;
+}
+
+.search input {
+    width: 244px;
+    height: 50px;
+    float: left;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-right: 0;
+    padding: 10px;
+}
+
+.search button {
+    width: 52px;
+    height: 50px;
+    float: right;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+/*白色导航  end*/
